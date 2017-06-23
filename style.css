@@ -1,0 +1,35 @@
+/*
+Theme Name:     Moviaz
+Theme URI: 	http://moviaz.com
+Description:    Child theme made by Vinkas
+Author:         Vinkas
+Author URI: 	http://vinkas.com
+Template:       Newspaper
+Version:        1.0
+*/
+
+
+/*  ----------------------------------------------------------------------------
+    This file will load automatically when the child theme is active. You can use it
+    for custom CSS.
+*/
+
+.no-featured .td-full-screen-header-image-wrap {
+ background: #000;
+}
+
+.no-featured .td-parallax-header {
+ opacity: 1 !important;
+}
+
+.td-post-template-7.no-featured .td-post-header {
+ height: 210px;
+}
+
+.single-movie header .td-module-meta-info, .single-celebrity header .td-module-meta-info {
+ display: none;
+}
+
+.movie .entry-crumbs, .celebrity .entry-crumbs {
+  font-weight: bold;
+}
